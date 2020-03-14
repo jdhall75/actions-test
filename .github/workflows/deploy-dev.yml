@@ -40,7 +40,7 @@ jobs:
         # FTP user
         user: unaux_25338668
         # FTP password
-        password: aws817in16s
+        password: ${{ secrets.FTP_PASSWD }}
         # Local directory
         localDir: web
         # Remote directory
