@@ -37,7 +37,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
         # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
-        ftp-server: ftp.unaux.com
+        ftp-server: ftp://ftp.unaux.com/htdocs/docs2
         # FTP account username
         ftp-username: unaux_25338668
         # FTP account password
@@ -45,4 +45,3 @@ jobs:
         # The local folder to copy, defaults to root project folder
         local-dir: web
         # Passes through options into git-ftp
-        git-ftp-args: # optional
